@@ -136,7 +136,7 @@ header {
 
 @media (max-width: 768px) {
     header {
-        height: 70vh;
+        height: 90vh;
     }
 
     .box-banner {
@@ -330,7 +330,7 @@ header {
 
         h1 {
             font-size: 1.5rem;
-            width: 80%;
+            width: 85%;
         }
 
         .paragrafo {
@@ -343,7 +343,7 @@ header {
             flex-direction: column;
             width: 100vw;
             text-align: center;
-            height: 70vh;
+            height: 90vh;
 
             .card-1 {
                 height: 30vh;
@@ -530,6 +530,14 @@ header {
     }
 
     @media (max-width: 768px) {
+        padding-bottom: 3rem;
+
+        h1 {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+            text-align: center;
+            font-size: 2rem;
+        }
 
         padding: 0;
 
@@ -539,24 +547,53 @@ header {
 
             .card1 {
                 width: 70%;
-                margin-left: 2rem;
-                height: 50vh;
+                margin-left: 1.5rem;
+                height: 60vh;
+                margin-bottom: 2rem;
 
             }
 
-            .card2 {}
+            .card2 {
+                width: 70%;
+                margin-left: 1.5rem;
+                height: 60vh;
+                margin-bottom: 2rem;
+            }
 
-            .card3 {}
+            .card3 {
+                width: 70%;
+                margin-left: 1.5rem;
+                height: 60vh;
+                margin-bottom: -2rem;
 
-            .card4 {}
+            }
 
-            .card5 {}
+            .card4 {
+                width: 70%;
+                margin-left: 1.5rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+            }
 
-            .card6 {}
+            .card5 {
+                width: 70%;
+                margin-left: 1.5rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+            }
+
+            .card6 {
+                width: 70%;
+                margin-left: 1.5rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+            }
         }
 
-        h1 {}
+    }
 
+    @media (max-width: 768px) {
+        padding-bottom: 3rem;
     }
 }
 
@@ -691,6 +728,64 @@ header {
 
     }
 
+    @media (max-width: 768px) {
+        padding-bottom: 3rem;
+
+        h1 {
+            padding-top: 3rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        padding: 0;
+
+        .secoes {
+            flex-direction: column;
+
+
+            .secao1 {
+                width: 70%;
+                margin-left: 2rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+
+            }
+
+            .secao2 {
+                width: 70%;
+                margin-left: 2rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+            }
+
+            .secao3 {
+                width: 70%;
+                margin-left: 2rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+
+            }
+
+            .secao4 {
+                width: 70%;
+                margin-left: 2rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+            }
+
+            .secao5 {
+                width: 70%;
+                margin-left: 2rem;
+                height: 60vh;
+                margin-bottom: -2rem;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding-bottom: 4rem;
+
+    }
 }
 
 
@@ -698,14 +793,10 @@ header {
 .Alertas {
     background-color: white;
     font-family: "Inter", sans-serif;
-    padding: 2rem;
     width: 100%;
     text-align: center;
     padding: 8vh;
-
-
-
-
+    height: 95vh;
 
     h1 {
         background: linear-gradient(to right, #1173D4, #33CC73 80%);
@@ -764,9 +855,6 @@ header {
 
         }
 
-
-
-
         .cartão1 {
             background-color: #F9D5E5;
             font-family: "Roboto", sans-serif;
@@ -810,9 +898,63 @@ header {
         }
 
         @media (max-width: 768px) {
-            .cartões {
-                width: 90%;
+            width: 100vw;
+            height: 100%;
+            justify-content: start;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: -2rem;
+
+            h3 {
+                font-size: 1.3rem;
             }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .cartão1 {
+                width: 90vw;
+                height: 20vh;
+                margin-left: 0.9rem;
+            }
+
+            .cartão2 {
+                width: 90vw;
+                height: 20vh;
+                margin-left: 0.9rem;
+
+                h3 {
+                    font-size: 1.1rem;
+                }
+            }
+
+            .cartão3 {
+                width: 90vw;
+                height: 20vh;
+                margin-left: 0.9rem;
+                margin-top: 0;
+            }
+
+            .cartão4 {
+                width: 90vw;
+                height: 20vh;
+                margin-left: 0.9rem;
+                margin-top: 0;
+
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        height: 105vh;
+        padding: 0;
+
+        h1 {
+            font-size: 1.5rem;
+            padding-top: 2rem;
+            margin-bottom: -2rem;
+
         }
     }
 }
@@ -861,9 +1003,31 @@ header {
         }
     }
 
-    @media (min-width: 501px) and (max-width: 900px) {}
+    @media (max-width: 768px) {
+        height: 100vh;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 3rem;
 
-    @media (min-width: 201px) and (max-width: 500px) {}
+        .Prevenção {
+            padding-top: 1rem;
+            width: 85vw;
+            padding-top: 1rem;
+        }
+
+        .Links {
+            width: 85vw;
+            margin-top: 1rem;
+            padding-top: 2rem;
+        }
+
+        .Contato {
+            width: 85vw;
+            padding-top: 3rem;
+        }
+
+
+    }
 
 }
 
@@ -878,10 +1042,10 @@ header {
     font-style: normal;
     margin-top: 0.1rem;
 
-    @media (min-width: 501px) and (max-width: 900px) {}
+    @media (max-width: 768px) {
+        text-align: center;
 
-    @media (min-width: 201px) and (max-width: 500px) {}
-
+    }
 }
 
 
