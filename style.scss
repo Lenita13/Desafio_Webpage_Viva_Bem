@@ -240,7 +240,7 @@ header {
 
 
 
-    h1 {
+    h2 {
         background: linear-gradient(to right, #1173D4, #33CC73 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -400,7 +400,7 @@ header {
     width: 100%;
     justify-items: center;
 
-    h1 {
+    h2 {
         background: linear-gradient(to right, #F9016F8A, #9308859E, #D038AAC0, #851C87 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -408,6 +408,7 @@ header {
         color: transparent;
         font-weight: 700;
         font-size: 2.5rem;
+        padding-bottom: 2rem;
 
     }
 
@@ -605,7 +606,7 @@ header {
     padding: 8vh;
 
 
-    h1 {
+    h2 {
         background: linear-gradient(to right, #3373D2, #6F95C7, #7BB5F5, #0074EE, #5EA7EF 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -632,6 +633,7 @@ header {
         h3 {
             font-family: "Roboto", sans-serif;
             font-size: 1.3rem;
+            padding-top: 1rem;
 
 
         }
@@ -798,7 +800,7 @@ header {
     padding: 8vh;
     height: 95vh;
 
-    h1 {
+    h2 {
         background: linear-gradient(to right, #1173D4, #33CC73 80%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
